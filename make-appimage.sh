@@ -11,6 +11,8 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/org.freac.freac.png
 export DESKTOP=/usr/share/applications/org.freac.freac.desktop
 export STARTUPWMCLASS=
+export DEPLOY_GTK=1
+export GTK_DIR=gtk-3.0
 
 # Deploy dependencies
 quick-sharun /usr/bin/freac
